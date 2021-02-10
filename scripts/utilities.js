@@ -15,17 +15,18 @@ function animate(){
         wrapper.style.background = "url('./images/volcano.png')"
         grass.src="./images/test2.png"
         logs.src="./images/pipe2.png"
+        turtle.src = "./images/nnnn.png"
     }
     else if(score === 2){
         ctx2.drawImage(upper, 0, 0);
-        upper.src = './images/44.jpg';
+        upper.src = './images/llll.png';
         ctx2.drawImage(backGroundImg, 0, 250);
         backGroundImg.src = './images/4.jpg';
         cars.src='./images/cobra1.png'
         wrapper.style.background = "url('./images/fire.jpeg')";
         logs.src = "./images/log.png"
-        grass.src="./images/grass.png"
-        turtle.src = "./images/bird1.png";
+        grass.src="./images/223.png"
+        turtle.src = "./images/bbb.png";
     }
     else{
         ctx2.drawImage(backGroundImg, 0, 0);
@@ -83,8 +84,8 @@ function incrementScore()
 }
 
 function handleScoreBoard(){
-    ctx4.fillStyle = 'black';
-    ctx4.strokeStyle = 'black';
+    ctx4.fillStyle = 'white';
+    ctx4.strokeStyle = 'white';
     ctx4.font = '20px larger';
     ctx4.strokeText('Score',265, 15);
     ctx4.font = '60px larger';

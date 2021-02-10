@@ -44,7 +44,8 @@ const carsArr = [];
 const logArr = [];
 
 const frog = new Image();
-frog.src = 'images/frog_spritesheet.png';
+//frog.src = 'images/frog_.png';
+frog.src = 'images/nurse.png';
 
 const backGroundImg = new Image();
 backGroundImg.src = 'images/background_lvl2.png';
